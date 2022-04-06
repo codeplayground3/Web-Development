@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model, Margin and Padding</title>
+    <style>
+        /* This is a universal selector */
+        * {
+            /* It specifies the behavior of the width and height  */
+            box-sizing: border-box;
+            /* This is reset */
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(253, 233, 224);
+        }
+
+        .container {
+            background-color: rgb(204 255 205);
+            border: 2px solid rgb(148 135 255);
+            /* Padding is from inside */
+            /* Margin is from outside */
+            padding: 20px;
+            margin: 30px;
+
+            /* We can set margin/padding for top, right, bottom, left like this */
+            /* padding-top: 10px;
+            padding-right: 22px;
+            padding-bottom: 9px;
+            padding-left: 33px; */
+
+            /* It can also be written like this */
+            /* margin/padding: top right bottom left; */
+            /* padding: 12px 11px 33px 23px; */
+
+            /* margin/padding: x(right, left) y(top, bottom); */
+            /* margin: 34px 23px; */
+
+            border-radius: 15px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>CSS Box Model, Margin and Padding</h3>
+    <div class="container">
+        <h2>This is a heading</h2>
+        <p id="first">This is first paragraph</p>
+    </div>
+    <div class="container">
+        <h2>This is a heading</h2>
+        <p id="second">This is second paragraph</p>
+    </div>
+    <div class="container">
+        <h2>This is a heading</h2>
+        <p id="third">This is third paragraph</p>
+    </div>
+</body>
+
+</html>

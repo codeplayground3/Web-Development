@@ -1,0 +1,37 @@
+﻿Resources to Learn Web Development:
+
+
+1.HTML in one video (https://www.youtube.com/c/CodeWithHarry/search?query=html%20in%20one%20video)
+
+2.HTML Cheatsheet (https://htmlcheatsheet.com/)
+
+3.Complete Web Development Course (https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg)
+
+4.CodePen Search (codepen.io)
+
+5.Php Tutorial (https://www.youtube.com/playlist?list=PLu0W_9lII9aikXkRE0WxDt1vozo3hnmtR)
+
+6.Projects Using HTML, CSS, JavaScript (https://www.youtube.com/playlist?list=PLu0W_9lII9aiQiOwthuSvinxoflmhRxM3)
+
+
+
+
+
+Tools every Web Developer should know about:
+
+
+1.For free Images (https://pixabay.com/), (https://www.pexels.com/)
+
+2.For Fonts (https://fonts.google.com/)
+
+3.For free templates (https://freehtml5.co/)
+
+4.For Icons (https://uxwing.com/)
+
+5.For Shortcuts (https://www.emmet.io/), (https://code.visualstudio.com/docs/editor/emmet)
+
+6.For Image API (https://unsplash.com/)
+
+7.For fake Online REST API (https://jsonplaceholder.typicode.com/)
+
+8.More resources are available on this GitHub Repository (https://github.com/bradtraversy/design-resources-for-developers)

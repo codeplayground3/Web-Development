@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+
+<body>
+    <!-- This is how you include forms in a webpage -->
+    <h2>HTML Forms</h2>
+    <!-- The action attribute specifies where to recive the data of the form -->
+    <form action="backend.php">
+        <!-- The div tag defines a division or a section in an HTML document -->
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            <!-- The label tag is a normal text, by clicking which, the user can select the form element -->
+            <!-- The "id" of the input tag and "for" of the label tag should be same -->
+            <label for="eligibility">Are you eligible?</label>
+            <!-- The type attribute of input element defines information field -->
+            <!-- The name attribute is used to reference elements in a JavaScript, or to reference form data after a form is submitted -->
+            <!-- Checked is used to define whether a checkbox or a radio button is checked (i.e. selected) -->
+            <input type="checkbox" name="myEligibility" id="eligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Cars:
+            <!-- The select tag is used to create a drop-down list -->
+            <select name="myCar">
+                <!-- The option tag defines the options in a drop-down list -->
+                <option value="Swift">Swift</option>
+                <!-- The selected attribute is used to select the option by default  -->
+                <option value="Thar" selected>Thar</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Write about yourself:
+            <br>
+            <!-- The cols attribute defines the columns and the rows attribute defines the rows to be displayed in the textarea -->
+            <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <!-- The value attribute displays the text in the buttons -->
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+
+</body>
+
+</html>

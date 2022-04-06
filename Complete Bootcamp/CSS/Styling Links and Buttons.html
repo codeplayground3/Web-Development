@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Links and Buttons</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            background-color: rgb(209, 255, 209);
+            border: 2px solid rgb(255, 159, 159);
+            border-radius: 10px;
+            width: 900px;
+            padding: 34px;
+            margin: 34px auto;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bold;
+        }
+
+        a {
+            /* It removes the underline from the hyperlink */
+            text-decoration: none;
+        }
+
+        .btn {
+            background-color: rgb(200, 199, 255);
+            color: black;
+            padding: 9px;
+            border: none;
+            /* Change the way of how the cursor looks after hovering */
+            cursor: pointer;
+            font-size: 12px;
+            border-radius: 9px;
+        }
+
+        /* If anybody hovers on the link the color will change */
+        .btn:hover {
+            background-color: rgb(191, 190, 255);
+            color: rgb(37, 32, 32);
+        }
+
+        /* If anybody visits the link the color will change */
+        .btn:visited {
+            background-color: rgb(146, 145, 168);
+        }
+
+        /* If anybody clicks on the link the color will change */
+        .btn:active {
+            background-color: rgb(166, 164, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Styling Links and Buttons</h3>
+    <div class="container" id="cont1">
+        <h2>This is my heading</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro doloribus vel nostrum magnam, quasi explicabo
+            ex natus, veniam exercitationem perferendis libero fuga ipsam, corporis maxime ducimus nihil officiis? Magni
+            nisi excepturi quis eius quo.</p>
+        <a href="https://google.com" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+
+</html>
