@@ -1,0 +1,81 @@
+#select{
+    margin: 70px 300px 10px 300px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #160038;
+    border: 5px double rgb(28, 8, 53);
+    border-radius: 10px;
+}
+
+#btn {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+}
+
+.custom-btn {
+    margin: 30px 30px;
+    width: 500px;
+    height: 300px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 25px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    font-size: 70px;
+}
+
+.btn-5 {
+    width: 500px;
+    height: 300px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(79, 65, 141);
+    background: linear-gradient(50deg, rgb(44, 0, 85), rgb(0, 0, 0) 100%);
+}
+
+.btn-5:hover {
+    color: #250061;
+    background: transparent;
+    box-shadow: none;
+}
+
+.btn-5:before,
+.btn-5:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #250061;
+    box-shadow:
+        -1px -1px 5px 0px #fff,
+        7px 7px 20px 0px #0003,
+        4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.btn-5:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-5:hover:before,
+.btn-5:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
